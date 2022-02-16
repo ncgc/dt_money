@@ -34,7 +34,7 @@ export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModa
     setAmount(0);
     setCategory('');
     setType('deposit');
-    
+
     onRequestClose();
   }
 
@@ -86,7 +86,7 @@ export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModa
         isActive = {type === 'withdraw'} 
         activeColor='red' >
         <img src={outcomeImg} alt="Saída"/>
-        <span>Entrada</span>
+        <span>Saída</span>
       </RadioBox>
     </TransactionTypeContainer>
 
