@@ -6,8 +6,8 @@ import { useContext } from "react";
 import { TransactionsContext } from "../../TransactionsContext";
 
 export function Summary() {
-  const data = useContext(TransactionsContext);
-  
+  const { transactions } = useContext(TransactionsContext);
+
   return (
     <Container>
       <div>
@@ -15,9 +15,22 @@ export function Summary() {
           <p> Entradas </p>
           <img src={incomeImg} alt="Entradas"></img>
         </header>
-        <strong>R$ 1000.00</strong>
+        <strong></strong>
       </div>
-      
+      <div>
+        <header>
+          <p> Saídas </p>
+          <img src={outcomeImg} alt="Saídas"></img>
+        </header>
+        <strong></strong>
+      </div>
+      <div>
+        <header>
+          <p> Total </p>
+          <img src={totalImg} alt="Total"></img>
+        </header>
+        <strong></strong>
+      </div>
     </Container>
   )
 }
