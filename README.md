@@ -34,8 +34,6 @@ Esse projeto foi desenvolvido durante o curso ignite ReactJS da Rocketseat. Por 
   
   ## Instalação
   
-  <br>
-
   ### Pré-Requisitos
   Antes de começar, você vai precisar ter instalado em sua máquina o [Git]('https://git-scm.com/downloads'), [Node v.16]('https://nodejs.org/en/') e [Yarn v.1.22]('https://classic.yarnpkg.com/lang/en/docs/install/)
   
