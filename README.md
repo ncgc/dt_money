@@ -1,46 +1,94 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="DTMoney" title="#dt_money" src="./github/banner.png" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<p align="center">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ncgc/dt_money?style=plastic">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ncgc/dt_money?color=purple&style=plastic">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=plastic">
+  <img alt="Course" src="https://img.shields.io/badge/course-ignite-yellow?style=plastic">
+</p>
 
-In the project directory, you can run:
+<br>
+  
+- [Instalação](#instalacao)
+- [Tecnologias](#tecnologias)
+- [Contribuição](#contribuicao)
+- [Autor](#autor)
 
-### `yarn start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+DT Money é uma aplicação para gestão de entradas e saídas de recursos financeiros. Em sua tela inicial, são apresentados os valores totais, seguido por uma lista de itens.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Cada item possui um título, valor, tipo (entrada ou saída), categoria e data em que foi realizada. Essa é preenchida automaticamente pelo sistema. 
 
-### `yarn test`
+Esse projeto foi desenvolvido durante o curso ignite ReactJS da Rocketseat. Por se tratar de um treinamento para desenvolvimento do front-end, não há persistência de dados.
+ 
+<p align="center">
+  <img alt="Demo" src="github/DT_Money.gif">
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-----
+<div id="instalacao">
+  
+  ## Instalação
+  
+  <br>
 
-### `yarn build`
+  ### Pré-Requisitos
+  Antes de começar, você vai precisar ter instalado em sua máquina o [Git]('https://git-scm.com/downloads'), [Node v.16]('https://nodejs.org/en/') e [Yarn v.1.22]('https://classic.yarnpkg.com/lang/en/docs/install/)
+  
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  ### Requisitos do projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  ```
+    # Clone o repositório
+    $ git clone https://github.com/ncgc/dt_money.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    # Vá ao repositório
+    $ cd dt_money
 
-### `yarn eject`
+    # Instale as dependências
+    $ yarn install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    # Execute
+    $ yarn start
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  ```
+  
+</div>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<div id="tecnologias">
 
-## Learn More
+## Tecnologias
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  <img  alt="REACT" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img  alt="TYPESCRIPT" height="50" width="60" src="https://raw.github.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
+  <img  alt="STYLED-COMPONENTS" height="50" width="60" src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png">
+  <img  alt="MIRAGEJS" height="50" width="60" src="https://avatars.githubusercontent.com/u/47899903?s=200&v=4">
+  
+</div>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
+
+<div id="contribuicao">
+
+## Contribução
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+
+</div>
+
+<br>
+
+----
+<div id="autor" align="center">
+Feito com 💜 por ncgc e Rocketseat
+</div>
